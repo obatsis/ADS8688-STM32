@@ -1,12 +1,13 @@
 # ADS8688-STM32
 TI-ADS8688 SPI Library intended for use within STM32CubeIDE (uses HAL Library)
 
+This library is a basic demonstration of the use of ADS8688. It uses HAL Functions that perform simple `polling`. DMA and Callbacks are not yet implemented (future project).
 Library Functionalities:
 
 * Initialization Function for various channel set-ups
 * Low Level Register Read/Write and Command Functions
 * High level Functions for reading raw data from tha ADC
-* Usage Example: `main.c`
+* Example of usage: `main.c`
 -----------------------------------------------------------------------------
 MXCube Setup:
 * SPI Mode: `Full-Duplex Master`
