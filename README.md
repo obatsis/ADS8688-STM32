@@ -7,7 +7,7 @@ Library Functionalities:
 
 * Initialization Function for various channel set-ups
 * Low Level Register Read/Write and Command Functions
-* High level Functions for reading raw data from tha ADC
+* High level Functions for reading raw data from the ADC
 * Example of usage: `main.c` (simple example that reads raw values from ADS8688 and prints them to USART2 in various formats) (implemented on `STM32f407vgt6`)
 -----------------------------------------------------------------------------
 MXCube Setup:
